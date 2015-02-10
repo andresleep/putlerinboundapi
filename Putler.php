@@ -4,7 +4,7 @@
  * Putler Inbound API JSON V1 for Yii Framework
  * @author twitter.com/andreslee
  */
-class Curl
+class Putler
 {
 	private function currencyExchange($currency) {
 		$string = file_get_contents('http://www.getexchangerates.com/api/latest.json');
