@@ -39,7 +39,7 @@ class Putler
 				$timezone = 'GMT';
 				$type 	= "Shopping Cart Payment Received";
 				$transaction_id = $cartOrder->gateways_transaction_id;
-				$item_title = "Discovery Mundo - Order: " . $cartOrder->id . "";
+				$item_title = "Order: " . $cartOrder->id . "";
 				$quantity = 1;
 				$source = "Credit Card";
 				$name 	= $cartClient->name;
